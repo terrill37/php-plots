@@ -19,10 +19,15 @@ It is tailored to people working in High Energy Physics that use ROOT (http://ro
 
         git clone --recursive git@github.com:terrill37/php-plots.git 
         
-1. Copy the example/htaccess file into .htaccess and edit its content to suit your needs.
+1. Copy the .htaccess file into .htaccess on the webpage directory and edit its content to suit your needs.
  
-        cp -p example/htaccess .htaccess
-        $EDITOR .htacces
+    a. .htaccess restricts webpage access to valid users from group
+    
+    b. edit .htaccess for your restrictions 
+    
+    c. .htaccess is not required for webpage to work
+        cp -p php-plots/.htaccess .htaccess
+        $EDITOR .htaccess
 
 1. Copy res/  jsroot/ and index.php into your web page top directory.
 
