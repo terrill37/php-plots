@@ -26,6 +26,7 @@ It is tailored to people working in High Energy Physics that use ROOT (http://ro
     b. edit .htaccess for your restrictions 
     
     c. .htaccess is not required for webpage to work
+        
         cp -p php-plots/.htaccess .htaccess
         $EDITOR .htaccess
 
