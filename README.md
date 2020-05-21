@@ -36,6 +36,10 @@ It is tailored to people working in High Energy Physics that use ROOT (http://ro
         cp -r jsroot/ /path/to/www/
         cp index.php /path/to/www/
         
+1. add plots in .jpeg, .png, .jpg format to webpage top directory
+
+    a. make sure pdfs have same name as image to be associated with
+
 1. Open the web folder into your browser.
 
 1. Enjoy.
