@@ -17,7 +17,7 @@ It is tailored to people working in High Energy Physics that use ROOT (http://ro
         
 1. Clone this repository (and its submodule jsroot)
 
-        git clone --recursive https://github.com/musella/php-plots.git .
+        git clone --recursive git@github.com:terrill37/php-plots.git 
         
 1. Copy the example/htaccess file into .htaccess and edit its content to suit your needs.
  
